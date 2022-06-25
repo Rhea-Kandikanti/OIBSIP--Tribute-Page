@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.heading {
+    font-size: 3rem;
+    color: #800020;
+    text-align: center;
+}
+
+
+body {
+    text-align: center;
+    font-family: 'georgia', sans-serif;
+    background: khaki;
+}
+
+section {
+    padding: 0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+
+.btn {
+    margin: 0 auto;
+    display: table;
+    margin-top: 1rem;
+    padding: .8rem 3rem;
+    border-radius: 5rem;
+    background: #454B1B;
+    font-size: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.content h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 5.0rem;
+    color: #4A0404;
+    text-transform: uppercase;
+}
+
+.home .content .hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: #6E260E;
+}
+
+.flip-box-back .fa-quote-right {
+    position: auto;
+    font-size: 7rem;
+    opacity: .3;
+    display: block;
+}
+
+.flip-box {
+    width: 350px;
+    height: 350px;
+    perspective: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flip-box-inner {
+    position: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-box-back {
+    font-size: large;
+    font-family: Apple Chancery, cursive;
+    border-radius: 50px;
+    background-color: darkolivegreen;
+    color: #FFBF00;
+    transform: rotateY(180deg);
+}
+
+.home {
+    background-color: #C4B454;
+    border: thick solid black;
+    margin: 0;
+    padding: 2rem;
+    position: auto;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content h2 {
+    text-align: center;
+    font-size: 2.0rem;
+    color: #6E260E;
+}
+
+
+.home .content p {
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    text-align: justify;
+    display: inline-block;
+    word-wrap: break-word;
+    font-size: 2.0rem;
+    color: black;
+}
+
+.awards .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.awards .box-container .box {
+    flex: 1 1 30rem;
+    background: white;
+    border: 2px solid black;
+    border-radius: .5rem;
+    margin: 1.5rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: .2s linear;
+    height: 350px;
+}
+
+.awards .box-container .box img {
+    height: 15rem;
+}
+
+.awards .box-container .box h3 {
+    font-size: 2rem;
+    color: darkslategray;
+    padding-top: 1rem;
+}
+
+.awards .box-container .box p {
+    font-size: 1.3rem;
+    color: #666;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+}
+
+.facts .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.facts .box-container .box {
+    background: #808000;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    flex: 1 1 30rem;
+    border-radius: 15rem;
+    border: 2px solid black;
+    height: 190px;
+}
+
+.facts .header-1:hover {
+    transform: scale(1.05);
+}
+
+.facts .box-container .box .header-1 h3 {
+    color: #DFFF00;
+    font-size: 2rem;
+}
+
+.facts .box-container .box .header-1 {
+    color: #50C878;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.facts .box-container .box .matter {
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box {
+    flex: 1 1 25rem;
+    margin: 2rem;
+}
+
+.footer .box-container .box h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: auto;
+    font-size: 2rem;
+    color: #800020;
+    padding: 1rem 0;
+    text-underline-offset: 1rem;
+}
+
+.footer .box-container .box a {
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    padding: .5rem 0;
+    color: darkslategray;
+}
+
+.footer .box-container .box a:hover {
+    text-decoration: underline;
+}
+
+.footer .credit {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    color: black;
+    padding: 0;
+    text-align: center;
+}
