@@ -5,7 +5,7 @@
 
    Check out the Project Page of my project here:
 
-   Project Page: https://www.linkedin.com/feed/update/urn:li:activity:6947244902309081088/
+   Project Page: https://rhea-kandikanti.github.io/OIBSIP--Tribute-Page/
 
    Check out the Video Link of my project here:
 
