@@ -3,6 +3,10 @@
 
 ✨This is the task-2 of Level-2.
 
+   Check out the Project Page of my project here:
+
+   Project Page: https://www.linkedin.com/feed/update/urn:li:activity:6947244902309081088/
+
    Check out the Video Link of my project here:
 
    Video Link: https://www.linkedin.com/feed/update/urn:li:activity:6947244902309081088/
